@@ -1,0 +1,38 @@
+info @storybook/angular v6.3.0-alpha.24
+info
+✔ Port 6006 is not available. Would you like to run Storybook on port 6007 instead? … yes
+info => Loading presets
+info => Loading 1 config file in "/Users/bkindle/Documents/Development/temp/twelve-test/.storybook"
+info => Loading 7 other files in "/Users/bkindle/Documents/Development/temp/twelve-test/.storybook"
+info => Adding stories defined in "/Users/bkindle/Documents/Development/temp/twelve-test/.storybook/main.js"
+info => Using prebuilt manager
+info => Found custom tsconfig.json
+info => Using implicit CSS loaders
+info => Loading angular-cli config
+info => Using angular project "twelve-test" for configuring Storybook
+info => Using angular-cli webpack config
+info => Using default Webpack5 setup
+<i> [webpack-dev-middleware] wait until bundle finished
+7% setup compile fork-ts-checker-webpack-pluginStarting type checking service...
+10% building 0/1 entries 0/0 dependencies 0/0 modulesℹ ｢wdm｣: wait until bundle finished:
+/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/webpack/lib/util/MapHelpers.js:17
+        const value = map.get(key);
+                          ^
+
+TypeError: Cannot read property 'get' of undefined
+    at exports.provide (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/webpack/lib/util/MapHelpers.js:17:20)
+    at /Users/bkindle/Documents/Development/temp/twelve-test/node_modules/webpack/lib/DefinePlugin.js:289:51
+    at SyncHook.eval [as call] (eval at create (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/tapable/lib/HookCodeFactory.js:19:10), <anonymous>:7:1)
+    at SyncHook.lazyCompileHook (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/tapable/lib/Hook.js:154:20)
+    at Compiler.newCompilation (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/webpack/lib/Compiler.js:631:26)
+    at /Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/webpack/lib/Compiler.js:667:29
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/tapable/lib/Hook.js:154:20)
+    at Compiler.compile (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/webpack/lib/Compiler.js:662:28)
+    at /Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/webpack/lib/Watching.js:77:18
+    at _next0 (eval at create (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:25:1)
+    at eval (eval at create (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:34:1)
+    at watchRunHook (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/webpack-virtual-modules/index.js:173:5)
+    at AsyncSeriesHook.eval [as callAsync] (eval at create (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:30:1)
+    at AsyncSeriesHook.lazyCompileHook (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/tapable/lib/Hook.js:154:20)
+    at Watching._go (/Users/bkindle/Documents/Development/temp/twelve-test/node_modules/@storybook/core-server/node_modules/webpack/lib/Watching.js:41:32)
